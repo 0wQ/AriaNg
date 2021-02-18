@@ -72,7 +72,7 @@
   "version": "1.2.1",
   "main": "index.html",
   "scripts": {
-    "build": "gulp clean build",
+    "build": "npm install gulp && gulp clean build",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "browsers": [
